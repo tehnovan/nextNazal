@@ -1,13 +1,11 @@
 import Card from "@/entities/things/ui/Card"
 import InputCard from "@/entities/things/InputCard"
+import { InputOutput } from "@/widgets/inputOutput"
+
 
 
 export default function Home() {
   return (
-     <>
-     <InputCard/>
-      <Card head="бебрабебраная" text= "бебра"/>
-      <Card head="нюхать беберу " text= "бебра"/>
-      </>
+ <InputOutput/>
   )
 }
